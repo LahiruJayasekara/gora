@@ -103,10 +103,10 @@
       <artifactId>gora-hbase</artifactId>
     </dependency>
 
-    <dependency>
-      <groupId>org.apache.gora</groupId>
-      <artifactId>gora-jcache</artifactId>
-    </dependency>
+    <!--<dependency>-->
+      <!--<groupId>org.apache.gora</groupId>-->
+      <!--<artifactId>gora-jcache</artifactId>-->
+    <!--</dependency>-->
 
     <dependency>
       <groupId>org.apache.gora</groupId>
@@ -197,6 +197,13 @@
       <groupId>org.ektorp</groupId>
       <artifactId>org.ektorp</artifactId>
       <version>1.4.2</version>
+    </dependency>
+
+    <!--hazelcast jet-->
+    <dependency>
+      <groupId>com.hazelcast.jet</groupId>
+      <artifactId>hazelcast-jet</artifactId>
+      <version>0.7.2</version>
     </dependency>
 
   </dependencies>
